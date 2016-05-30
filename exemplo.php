@@ -1,4 +1,7 @@
 <?php
+
+require 'Instagram.class.php';
+
 $InstaId = 'INSTA_ID';
 $InstaToken = 'INSTA_TOKEN';
 $Instagram = new Instagram($InstaId, $InstaToken);
